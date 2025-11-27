@@ -12,7 +12,7 @@ import { ArrowDown, Menu, X, BookOpen } from 'lucide-react';
 const AuthorCard = ({ name, role, delay }: { name: string, role: string, delay: string }) => {
   return (
     <div className="flex flex-col group animate-fade-in-up items-center p-8 bg-white rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-all duration-300 w-full max-w-xs hover:border-nobel-gold/50" style={{ animationDelay: delay }}>
-      <h3 className="font-serif text-2xl text-stone-900 text-center mb-3">{name}</h3>
+      <h3 className="font-serif text-2xl text-stone-900 text-center mb-3">{name} QUESTA E' UNA PROVONA</h3>
       <div className="w-12 h-0.5 bg-nobel-gold mb-4 opacity-60"></div>
       <p className="text-xs text-stone-500 font-bold uppercase tracking-widest text-center leading-relaxed">{role}</p>
     </div>
